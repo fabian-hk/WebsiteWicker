@@ -1,0 +1,42 @@
+.blog-title {
+    color: #1b5e20;
+}
+
+.blog-description {
+    color: #1b5e20;
+}
+
+.post-holder.odd {
+    background: #4caf50;
+}
+
+#site-head {
+    color: #1b5e20;
+    background: #4caf50 no-repeat center center;
+    background-size: cover;
+}
+
+.imgAndText {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*
+ BEGIN
+ Source: https://discourse.gohugo.io/t/markup-syntax-help-display-multiline-text-beside-tall-image/3635
+*/
+ section {
+    margin: auto;
+    padding-top: 0px;
+}
+div#sectionleft {
+    float: left;
+    margin-right: 20px;
+}
+div#sectionright {
+    margin: auto;
+}
+/*
+ END
+*/
