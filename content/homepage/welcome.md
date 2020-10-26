@@ -11,7 +11,7 @@ header_menu: false
 
 {{% imgAndText img="img/Profile.jpg" %}}
 
-Mein Hobby ist das Flechten mit Weiden. Das Flechten ist eine der ältesten Handwerkskünste, wird aber heute immer seltener praktiziert. Faszinierend ist die Flechttechnik, die ohne Nägel, Schrauben und Kleber auskommt. Es entsteht ein nachhaltiges Produkt. Es kann leicht gereinigt und repariert werden und hat eine lange Lebensdauer.
+Mein Hobby ist das Flechten mit Weiden. Das Flechten ist eine der ältesten Handwerkskünste, wird aber heute immer seltener praktiziert. Faszinierend ist die Flechttechnik, die ohne Nägel, Schrauben und Kleber auskommt. So entsteht ein nachhaltiges Produkt. Es kann leicht gereinigt und repariert werden und hat eine lange Lebensdauer.
 
 Die beigefügten Bilder geben einen Überblick über mein Hobby. Gerne nehme ich Anfragen und Wünsche zu Körben entgegen. Sie können mit mir einen Termin vereinbaren, die Körbe und Flechtwaren in Augenschein nehmen und auch erwerben.
 
