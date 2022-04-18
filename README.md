@@ -2,11 +2,13 @@ Headline color: #1b5e20
 
 Theme: https://themes.gohugo.io/hugo-scroll/
 
-DNS Anbieter:
-- https://www.ovh.de/domains/preise/
-- https://www.hosteurope.de/en/Domain-Names/Prices/
-- https://www.df.eu/
-- https://www.inwx.com/en/de-domain.html
+# Hugo Commands
 
+- Start dev server: ``hugo server -D``
+- Compile for deployment: ``hugo -D -d docs/``
 
-Hugo alternative: https://jekyllrb.com/
+# Add Images
+
+1. Delete all images  in ``static/img``
+2. Place original files in ``static/img``
+3. Run script ``scripts/generate_thumbs.sh``
