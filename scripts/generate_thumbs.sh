@@ -1,10 +1,13 @@
 #!/bin/bash
 
-for i in `find static/img/gallery -type f ! -iname "*-thumb.JPG" -iname "*.JPG"`; 
+# Create thumbnails and compress original images
+for i in `find static/img/gallery -type f ! -iname "*-thumb.jpg" -iname "*.JPG" -iname "*.jpg"`;
 do 
     echo $i;
-    convert $i -auto-orient -quality 60% -thumbnail 600x600 ${i%.*}-thumb.JPG;
-    convert -auto-orient -strip -interlace Plane -quality 20% $i ${i%.*}.JPG;
+    mv $i ${i%.*}-original.jpg
+    convert -auto-orient -quality 60% -thumbnail 600x600 ${i%.*}-original.jpg ${i%.*}-thumb.jpg;
+    convert -auto-orient -strip -interlace Plane -quality 20% ${i%.*}-original.jpg ${i%.*}.jpg;
 done
 
-rm static/img/gallery/*.jpg
+# Delete original images
+rm static/img/gallery/*-original.jpg
