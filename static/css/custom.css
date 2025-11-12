@@ -6,7 +6,7 @@
     color: #1b5e20;
 }
 
-.post-holder.odd {
+.post-holder.dark {
     background: #4caf50;
 }
 
@@ -33,6 +33,7 @@
 div#sectionleft {
     float: left;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 div#sectionright {
     margin: auto;

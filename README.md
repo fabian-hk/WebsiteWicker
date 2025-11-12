@@ -12,3 +12,4 @@ Theme: https://themes.gohugo.io/hugo-scroll/
 1. Delete all images  in ``static/img/gallery``
 2. Place original files in ``static/img/gallery``
 3. Run script ``scripts/generate_thumbs.sh``
+
