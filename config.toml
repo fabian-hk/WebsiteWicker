@@ -17,7 +17,7 @@ title = "Claus-Dieter - Weidenkörbe"
     copyright = "© Claus-Dieter Hauck"
 
     # The "description" of your website. This is used in the meta data of your generated html.
-    description = "Körbe und Flechtarbeiten aus Weiden"
+    description = "Entdecken Sie handgeflochtene Weidenkörbe und traditionelle Flechtarbeiten von Claus-Dieter Hauck in Winnenden. Individuelle Anfragen willkommen."
 
     # The path to the favicon in the assets directory.
     favicon = "img/favicon.ico"
@@ -31,14 +31,14 @@ title = "Claus-Dieter - Weidenkörbe"
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
     # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-    title = "Claus-Dieter Hauck - Körbe und Flechtarbeiten aus Weiden"
+    title = "Handgeflochtene Weidenkörbe in Winnenden | Claus-Dieter Hauck"
 
     # This theme will, by default, inject a design-by-line at the bottom of the page.
     # You can turn it off, but we would really appreciate if you don’t :-)
     # hidedesignbyline = true
 
     [params.meta]
-        keywords = "Weiden, Körbe, Flechtarbeiten, Claus-Dieter, Hauck, Winnenden"
+        keywords = "Weiden, Körbe, Flechtarbeiten, Claus-Dieter, Hauck, Winnenden, handgeflochtene Weidenkörbe, Weidenkörbe kaufen, Körbe aus Weiden, traditionelle Flechtarbeiten, Korb flechten Handarbeit, handgemachte Körbe, Weidenflechten, Korbmacher Handwerk, Naturkörbe aus Weiden, nachhaltige Weidenkörbe, individuelle Weidenkörbe, Weidenkorb nach Maß, Körbe aus Naturmaterialien, Weidenkorb Manufaktur, traditionelle Korbflechterei, Flechtkunst aus Weiden, Weidenkörbe Winnenden, handgefertigte Körbe Winnenden, Flechtarbeiten Baden-Württemberg, Weidenkörbe auf Anfrage"
 
 [markup]
     [markup.goldmark]
