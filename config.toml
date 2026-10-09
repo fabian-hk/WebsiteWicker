@@ -9,7 +9,7 @@ defaultContentLanguage = "de"
 theme = "hugo-scroll"
 
 # The "title" of your website
-title = "Claus-Dieter - Weidenkörbe"
+title = "Handgeflochtene Weidenkörbe in Winnenden | Claus-Dieter Hauck"
 
 [params]
     # A "copyright"-line to be added at the bottom of the page.
