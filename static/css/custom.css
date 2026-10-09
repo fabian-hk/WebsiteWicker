@@ -6,8 +6,8 @@
     color: #1b5e20;
 }
 
-.post-holder.dark {
-    background: #4caf50;
+:root {
+    --section-dark-bg-color: #4caf50 !important;
 }
 
 #site-head {
