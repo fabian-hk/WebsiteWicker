@@ -1,5 +1,7 @@
 <!-- Source: https://discourse.gohugo.io/t/markup-syntax-help-display-multiline-text-beside-tall-image/3635 -->
+{{- $src := .Get "img" -}}
+{{- $config := imageConfig (printf "static/%s" $src) -}}
 <section>
-    <div id="sectionleft"><img class="imgAndText" src='{{ .Get "img" }}'></div>
-    <div id="sectionright">{{ .Inner }}</div>
+<div id="sectionleft"><img class="imgAndText" src="{{ $src | relURL }}" alt="{{ .Get "alt" }}" width="{{ $config.Width }}" height="{{ $config.Height }}" loading="lazy" decoding="async"></div>
+<div id="sectionright">{{ .Inner }}</div>
 </section>

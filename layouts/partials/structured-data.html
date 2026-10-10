@@ -1,0 +1,9 @@
+{{ if .IsHome }}
+{{ $home := .Permalink }}
+{{ $personID := printf "%s#person" $home }}
+{{ $websiteID := printf "%s#website" $home }}
+{{ $person := dict "@type" "Person" "@id" $personID "name" "Claus-Dieter Hauck" "url" $home "image" ("img/Profile.jpg" | absURL) "description" "Claus-Dieter Hauck aus Winnenden stellt Körbe und Flechtarbeiten aus Weiden als Hobby her." "email" "kontakt@cdhauck.de" "telephone" "+49 7195 8201" "address" (dict "@type" "PostalAddress" "streetAddress" "Königsberger Ring 31" "postalCode" "71364" "addressLocality" "Winnenden") }}
+{{ $website := dict "@type" "WebSite" "@id" $websiteID "url" $home "name" site.Params.title "inLanguage" "de-DE" "publisher" (dict "@id" $personID) }}
+{{ $page := dict "@type" "WebPage" "@id" (printf "%s#webpage" $home) "url" $home "name" .Title "description" .Description "inLanguage" "de-DE" "isPartOf" (dict "@id" $websiteID) "about" (dict "@id" $personID) }}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" (slice $person $website $page) | jsonify | safeJS }}</script>
+{{ end }}

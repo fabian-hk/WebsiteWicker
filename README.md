@@ -5,7 +5,10 @@ Theme: https://themes.gohugo.io/hugo-scroll/
 # Hugo Commands
 
 - Start dev server: ``hugo server -D``
-- Compile for deployment: ``hugo -D -d docs/``
+- Compile for deployment: ``hugo -d docs/``
+- Verify without changing the rendered site: ``hugo --destination /tmp/wicker-seo-build --cacheDir /tmp/wicker-hugo-cache``
+
+See [SEO.md](SEO.md) for the SEO review, validation results, and maintenance notes. Production builds omit drafts; use `-D` only when previewing them.
 
 # Add Images
 
